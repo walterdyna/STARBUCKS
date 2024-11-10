@@ -97,3 +97,167 @@ button {
     clip-path: circle(600px at right 800px);
     z-index: -1;
 }
+
+/* Responsividade para dispositivos de 800px */
+@media (max-width: 800px) {
+    body {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+    .caixa-texto, .caixa-imagem {
+        width: 500px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    span {
+        font-size: 50px;
+    }
+}
+
+/* Responsividade para dispositivos de 700px */
+@media (max-width: 700px) {
+    body {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .caixa-texto, .caixa-imagem {
+        width: 400px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    span {
+        font-size: 45px;
+    }
+}
+
+/* Responsividade para dispositivos de 600px */
+@media (max-width: 600px) {
+    .conteudo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .caixa-texto, .caixa-imagem {
+        width: 350px;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: column;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    span {
+        font-size: 40px;
+    }
+}
+
+/* Responsividade para dispositivos de 500px */
+@media (max-width: 500px) {
+    .caixa-texto, .caixa-imagem {
+        width: 300px;
+    }
+    .logo {
+        width: 60px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+    span {
+        font-size: 35px;
+    }
+}
+
+/* Responsividade para dispositivos de 400px */
+@media (max-width: 400px) {
+    body {
+        padding: 10px;
+    }
+    .caixa-texto, .caixa-imagem {
+        width: 250px;
+    }
+    .starbucks {
+        width: 280px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    span {
+        font-size: 30px;
+    }
+}
+
+/* Responsividade para dispositivos de 390px e menores */
+@media (max-width: 390px) {
+    .caixa-texto, .caixa-imagem {
+        width: 220px;
+    }
+    .botao-menu {
+        width: 50px;
+    }
+    h2 {
+        font-size: 23px;
+    }
+    span {
+        font-size: 28px;
+    }
+}
+
+/* Responsividade para dispositivos de 370px */
+@media (max-width: 370px) {
+    .caixa-texto, .caixa-imagem {
+        width: 200px;
+    }
+    .logo {
+        width: 50px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    span {
+        font-size: 26px;
+    }
+}
+
+/* Responsividade para dispositivos de 360px e menores */
+@media (max-width: 360px) {
+    .starbucks {
+        width: 260px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    span {
+        font-size: 25px;
+    }
+}
+
+/* Responsividade para dispositivos de 350px */
+@media (max-width: 350px) {
+    .caixa-texto, .caixa-imagem {
+        width: 180px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    span {
+        font-size: 23px;
+    }
+}
+
+/* Responsividade para dispositivos de 200px */
+@media (max-width: 200px) {
+    .caixa-texto, .caixa-imagem {
+        width: 150px;
+    }
+    .starbucks {
+        width: 200px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    span {
+        font-size: 20px;
+    }
+}
